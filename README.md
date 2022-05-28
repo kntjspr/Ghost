@@ -1,7 +1,7 @@
 # Ghost-Module
 A python module designed to assess your online footprint protections.
 
-This is my first project written in python. I just ported this one from my initial program called Reiss (C#) but it's not released publicly yet despite of being in development since last year.
+This is my first project written in python. I just ported this one from my initial program called Reiss (C#) but it's not yet released publicly despite of being under development since last year.
 
 ## Features:
 - Check IP Reputation score with various sources and calculate the mean score. (under dev)
