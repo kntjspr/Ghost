@@ -1,0 +1,13 @@
+{
+  "_comment": "Do not edit unless you modify the code. Change the proxy details in the program settings.",
+  "API": {
+    "ipqualityscore": "dzMX9MRPl0iUvc9TFe1f3BtyAvN8cV7X"
+  },
+  "ProxyProfile": {
+    "No Proxy Profile": "",
+    "911.re": "socks5://127.0.0.1:8287",
+    "Proxy Profile 2": "https://10.10.1.11:1080",
+    "Proxy Profile 3": "ftp://10.10.1.10:3128",
+    "current_setting": "No Proxy Profile"
+  }
+}
