@@ -10,6 +10,7 @@ This is my first ever project written in python. I just ported this one from my 
 - Scamalytics as reputation source (under dev)
 - Ability to change multiple proxy profiles in config.json!
 - Switch proxy profiles inside the program (under dev)
+- Check phone number reputation (Detect voip etc.) 
 
 ## Next features
 - Check browser fingerprints for anomalies.
