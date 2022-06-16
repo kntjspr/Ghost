@@ -15,8 +15,6 @@ def rndFloat(min, max, decimals, size, addchars=''):
 def rndChoice(chars, size=1):
     return np.random.choice(chars, size=size, replace=True)
 
-
-
 def generate(i):
     choice_words = ["grey", "relax", "punishment", "fold", "draconian", "straight", "telephone", "tree", "available", "puncture", "minister", "distinct", "massive", "zoom", "enchanted", "paper", "tray", "brainy", "zealous", "filthy", "chilly", "hideous", "deranged", "vacuous", "bless", "zipper", "weather", "tired", "week", "destruction", "gaudy", "furry", "absent", "irritate", "cycle", "plan", "serious", "momentous", "account", "dizzy", "vessel", "wriggle", "fragile", "yak", "kindhearted", "mourn", "change", "market", "weigh", "basin", "spotless", "monkey", "lucky", "wrap", "curve", "error", "jittery", "important", "lake", "act", "male", "poke", "ritzy", "thick", "downtown", "crown", "noisy", "spiky", "trip", "expand", "ticket", "graceful", "tub", "pocket", "share", "rough", "inexpensive", "unruly", "admire", "appreciate", "uninterested", "treat", "scared", "blind", "mice", "kiss", "spotty", "women", "base", "permissible", "accessible", "office", "babies", "ban", "engine", "heartbreaking", "measly", "exotic", "worthless", "daffy"]
     choice_RAM = [2, 4, 6, 8]
@@ -37,10 +35,6 @@ def generate(i):
     
 def main():
     print("under development")
-
-
-
-
-
+    
 if __name__=="__main__":
     main()
