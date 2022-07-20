@@ -1,7 +1,8 @@
-import random
 import decimal
-import numpy as np
+import random
 from decimal import *
+
+import numpy as np
 
 
 def rndFloat(min, max, decimals, size, addchars=""):
