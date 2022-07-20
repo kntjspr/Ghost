@@ -135,9 +135,11 @@ def generate(i=1):
     choice_RAM = [2, 4, 6, 8]
     choice_CPU = [2, 4, 8, 16, 32]
     choice_mediaDevices = [1, 2, 3, 4]
-    generated_noiseAudioContext = rndFloat(
-        min=1, max=8, decimals=12, size=i, addchars="e-8"
-    )
+    generated_noiseAudioContext = rndFloat(min=1,
+                                           max=8,
+                                           decimals=12,
+                                           size=i,
+                                           addchars="e-8")
     generated_canvasNoise = rndFloat(min=0, max=1, decimals=8, size=i)
     generated_ram = rndChoice(choice_RAM, i)
     generated_lat = ""
@@ -150,7 +152,8 @@ def generate(i=1):
     generated_profileName = rndChoice(
         choice_words,
         size=i,
-        addchars=f"-{random.randint(1,99)}{random.randint(1,999)}{random.randint(1,99999)}",
+        addchars=
+        f"-{random.randint(1,99)}{random.randint(1,999)}{random.randint(1,99999)}",
     )
     generated_webglNoise = rndFloat(min=2, max=20, decimals=3, size=i)
 
