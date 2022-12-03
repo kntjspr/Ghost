@@ -69,10 +69,13 @@ def checkIPQS(silent):
         8: 'recent_abuse',
         9: 'bot_status'
     }
-    for key in checklist.keys():
-        if response[checklist[key]] == True:
-           errorCounter = errorCounter + 1
-           errorDetail.append(checklist[key] + " = true")
+    try:
+        for key in checklist.keys():
+            if response[checklist[key]] == True:
+                errorCounter = errorCounter + 1
+                errorDetail.append(checklist[key] + " = true")
+    except:
+        print("Unsuccessful request. Check the api.")
     if response['fraud_score'] > 25:
         errorCounter = errorCounter + 1
         errorDetail.append("fraud_score > 25, current value: " + str(response['fraud_score']))
