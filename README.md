@@ -17,5 +17,4 @@ This is my first ever project written in python. I just ported this one from my 
 - Check browser score.
 
 ## Screenshot:
-![Screenshot](https://raw.githubusercontent.com/kntjspr/Ghost-Module/main/src/Screenshot.png)
 ![image](https://user-images.githubusercontent.com/65537922/170803039-b1e43540-97b3-4244-a6c9-e9e210e6827f.png)
