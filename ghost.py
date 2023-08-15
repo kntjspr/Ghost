@@ -33,7 +33,6 @@ def load_config():
         exit()
     result = response.json()
     print(f"{fg(201)}{ef.italic}G H O S T  M O D U L E | {data['app-version']}{rs.italic}{fg.rs}".center(os.get_terminal_size().columns))
-    print(f"{fg.orange}Made with ♥ | https://github.com/kntjspr \n{fg.rs}".center(os.get_terminal_size().columns))
     print(f"{draculaPinkBG}Current IP:{bg.rs} {result['query']}")
     print(f"{draculaOrangeBG}Location:{bg.rs} {result['countryCode']}, {result['city']} {result['zip']}")
 def print_menu():
