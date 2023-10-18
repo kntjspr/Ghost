@@ -3,10 +3,11 @@ try:
     from sty import fg, bg, ef, rs, Style, RgbFg
     import sty, re, json, requests
 except Exception as e:
-    os.system("pip install -r requirements.txt")
+    os.system("pip install -r requirements.txt")## You can remove try-catch block if you want to install dependencies in a virtual environment.
+
     print("Packages installed.")
     exit()
-
+    
 class Config:
     def __init__(self):
         self.data = json.load(open('config.json'))
