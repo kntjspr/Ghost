@@ -4,7 +4,6 @@ try:
     import sty, re, json, requests
 except Exception as e:
     os.system("pip install -r requirements.txt")## You can remove try-catch block if you want to install dependencies in a virtual environment.
-
     print("Packages installed.")
     exit()
     
